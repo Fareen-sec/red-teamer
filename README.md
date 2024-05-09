@@ -1,14 +1,7 @@
-# ATT&CK® Navigator
+# Red-Teamer
 
-The ATT&CK Navigator is designed to provide basic navigation and annotation of [ATT&CK](https://attack.mitre.org) matrices, something that people are already doing today in tools like Excel.  We've designed it to be simple and generic - you can use the Navigator to visualize your defensive coverage, your red/blue team planning, the frequency of detected techniques or anything else you want to do.  The Navigator doesn't care - it just allows you to manipulate the cells in the matrix (color coding, adding a comment, assigning a numerical value, etc.).  We thought having a simple tool that everyone could use to visualize the matrix would help make it easy to use ATT&CK.
+The Red-Teamer serves as a tool for navigating and annotating attack matrices, mirroring actions already taken in programs like Excel. Designed to be straightforward and versatile, it enables users to visualize defensive strategies, plan red/blue team activities, track the frequency of detected techniques, or any other desired task. The Red-Teamer facilitates manipulation of matrix cells, allowing for actions like color-coding, adding comments, or assigning numerical values without restrictions. Its simplicity aims to make utilizing attack more accessible.
 
-The principal feature of the Navigator is the ability for users to define layers - custom views of the ATT&CK knowledge base - e.g. showing just those techniques for a particular platform or highlighting techniques a specific adversary has been known to use. Layers can be created interactively within the Navigator or generated programmatically and then visualized via the Navigator.
+A key feature of the Red-Teamer is its capability for users to create custom views, known as layers, of the attack knowledge base. These layers can focus on specific aspects, such as techniques relevant to a particular platform or those associated with a specific adversary. Users can generate layers interactively within the Red-Teamer or programmatically, then visualize them through the tool.
 
-## Usage
-
-The ATT&CK Navigator is hosted live via GitHub Pages. [You can find a live instance of the current version of the Navigator here](https://mitre-attack.github.io/attack-navigator). You can read more about how to use the application itself in the [USAGE](/USAGE.md) document (which is mirrored in the in-app help page).
-
-Version 4.0 of the ATT&CK Navigator supports all ATT&CK domains in a single instance of the application instead of requiring a different instance for each domain. It also sees the introduction of support for the ICS domain. See [the changelog](CHANGELOG.md) for more information.
-
-Additionally, older versions of ATT&CK can now be loaded in the application. The ATT&CK Navigator supports ATT&CK versions 8, 7, 6, 5, and 4. Older versions do not work in the application since their data model is too outdated.
-
+To access the Red-Teamer, users can visit its live instance on GitHub Pages. Version 4.0 offers support for all attack domains within a single application instance, eliminating the need for separate instances for each domain. Additionally, it introduces support for the ICS domain. Users can load older attack versions, ranging from 4 to 8, into the application, expanding its compatibility while recognizing that versions older than 4 are incompatible due to significant changes in their data models.
